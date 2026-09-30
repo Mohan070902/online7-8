@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %} Website {% endblock %}</title>
+</head>
+<body>
+
+    <nav>
+    <a href="{{ url_for('home')}}">HOME</a>
+    <a href="{{ url_for('about')}}">ABOUT</a>
+    </nav>
+
+    <hr>
+
+    {%block content %}
+    <h1>Content</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos molestiae excepturi delectus ipsam aut commodi repellat omnis tempora accusantium, voluptatibus fugit nesciunt alias aliquid eligendi animi nam hic. Ex eius animi nihil, ullam veniam saepe fugit vel? Quasi quidem cumque libero, cupiditate qui ut nemo eligendi sequi ipsam illo. Nulla, nobis inventore, dignissimos totam, consectetur pariatur temporibus id fuga sapiente maiores placeat culpa laudantium. Odit debitis quaerat quod necessitatibus commodi in, sit at ea adipisci harum asperiores unde autem sint laboriosam impedit magni corrupti earum ducimus tenetur deserunt aut culpa fuga repellat ut. Labore iste ex delectus alias nostrum assumenda.</p>
+    
+    {% endblock%}
+
+    <hr>
+    <footer>
+        <p>copyrights @ 2026</p>
+    </footer>
+
+    <hr>
+
+
+    
+</body>
+</html>

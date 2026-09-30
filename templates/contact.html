@@ -1,0 +1,29 @@
+{%extends 'base.html'%}
+
+{%block title%} Contact {%endblock%}
+
+{%block content%}
+
+<h1>Student List</h1>
+
+<table border="2">
+
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Course</th>
+    </tr>
+
+    <tr>
+        <td>{{students.id}}</td>
+        <td>{{students.name}}</td>
+        <td>{{students.course}}</td>
+
+
+
+    </tr>
+
+</table>
+
+
+{%endblock%}
