@@ -37,6 +37,8 @@ def login():
         "message": "Invalid Login" 
     }, 401
 
+print("Hello")
+
 
 if __name__ == "__main__":
     app.run(debug=True)
